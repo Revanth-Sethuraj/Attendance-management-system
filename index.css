@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}  
+body {
+    background: #f5f6fa;
+    
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #1f3c88;
+}
+
+.logo-img {
+      height: 100px;        /* Desktop size */
+    width: auto;
+    left: 20px;
+}
+
+/* Brand text */
+.brand-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+/* Hero */
+.hero-section {
+    height: 70vh;
+    background:
+        linear-gradient(rgba(31,60,136,0.7), rgba(31,60,136,0.7)),
+        url("image/WhatsApp\ Image\ 2026-01-06\ at\ 10.32.28\ AM.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+/* Features */
+.feature-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* About */
+.about-section {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+/* Footer */
+/* Footer */
+.school-footer {
+    background-color: #1f3c88;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+}
+
+.school-footer h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.school-footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.school-footer hr {
+    border-color: rgba(255,255,255,0.3);
+}
+
+.copyright {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 45px;
+    }
+
+    .brand-text {
+        font-size: 16px;
+    }
+}

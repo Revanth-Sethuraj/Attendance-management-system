@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(
+        270deg,
+        #dd3ec3,
+        #8c3dcc,
+        #36b9cc,
+        #f8f9fc
+    );
+    background-size: 800% 800%;
+    animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+/* Navbar */
+.custom-navbar {
+    background-color: #1f3c88;
+    padding: 10px 0;
+}
+
+.logo-img {
+    height: 100px;        /* Desktop size */
+    width: auto;
+    left: 20px;
+}
+
+/* Brand text */
+.brand-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+/* Page */
+body {
+    background: #f5f6fa;
+}
+
+.report-container {
+    max-width: 1200px;
+    background: #fff;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+header h2 {
+    margin-bottom: 20px;
+}
+
+/* Filters */
+.filter-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-row input,
+.filter-row select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filter-btn {
+    background: #4e73df;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Export */
+.export {
+    margin: 20px 0;
+}
+
+.export button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.excel-btn { background: #1cc88a; }
+.pdf-btn { background: #e74a3b; }
+.print-btn { background: #f6c23e; }
+
+/* Table */
+.report-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.report-table th {
+    background: #f0f0f0;
+}
+
+/* Status */
+.present { color: green; font-weight: bold; }
+.absent { color: red; font-weight: bold; }
+.half-day { color: orange; font-weight: bold; }
+
+/* Summary */
+.summary-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 200px;
+    background: #f0f4f7;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* footer */
+/* Footer */
+.school-footer {
+    background-color: #1f3c88;
+    color: #ffffff;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+}
+
+.school-footer h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.school-footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.school-footer hr {
+    border-color: rgba(255,255,255,0.3);
+}
+
+.copyright {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 45px;
+    }
+
+    .brand-text {
+        font-size: 16px;
+    }
+}
